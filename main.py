@@ -1,9 +1,10 @@
-from background_remove import BackgroundRemover
+import tkinter as tk
+from dashboard import BackgroundRemoverApp
 
 def main():
-    remover = BackgroundRemover()
-    if remover.choose_image():
-        remover.remove_background()
+    root = tk.Tk()
+    app = BackgroundRemoverApp(root)
+    root.mainloop()
 
 if __name__ == "__main__":
     main()
