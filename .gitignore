@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cấu hình IDE
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+env/
+
+# PyInstaller
+*.spec
+dist/
+build/
+*.exe
+
+# System
+.DS_Store
+Thumbs.db
