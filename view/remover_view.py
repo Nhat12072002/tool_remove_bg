@@ -89,4 +89,4 @@ class RemoverView(tk.Frame):
         self.show_custom_popup("🎉 Thành công", f"Ảnh đã được xử lý và lưu tại:\n{output_path}", bg="#dff9fb")
 
         if self.log_callback:
-            self.log_callback(f"Đã xử lý: {self.input_path.split('/')[-1]}")
+            self.log_callback(f"Đã xóa background hình: {self.input_path.split('/')[-1]}")
